@@ -13,9 +13,15 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun settingButton() {
-        val button = findViewById<Button>(R.id.button)
-        button.setOnClickListener {
+        val subButton = findViewById<Button>(R.id.button_to_subactivity)
+        subButton.setOnClickListener {
             val intent = Intent(this, SubActivity::class.java)
+            startActivity(intent)
+        }
+
+        val twoColorButton = findViewById<Button>(R.id.button_to_twoColorActivity)
+        twoColorButton.setOnClickListener {
+            val intent = Intent(this, TwoColorActivity::class.java)
             startActivity(intent)
         }
     }
