@@ -24,5 +24,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, TwoColorActivity::class.java)
             startActivity(intent)
         }
+
+        val viewButton = findViewById<Button>(R.id.button_to_viewActivity)
+        viewButton.setOnClickListener {
+            val intent = Intent(this, ViewActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -15,8 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4"
-        />
+        app:layout_constraintVertical_bias="0.25" />
 
     <Button
         android:id="@+id/button_to_twoColorActivity"
@@ -25,9 +24,19 @@
         android:text="Go To Two Color Activity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6"
+        />
+
+    <Button
+        android:id="@+id/button_to_viewActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go To View Activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
